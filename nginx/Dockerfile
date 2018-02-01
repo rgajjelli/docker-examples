@@ -1,4 +1,6 @@
 FROM nginx
+MAINTAINER Raju Gajjelli <raj.gajjelli@gmail.com>
+
 ENV AUTHOR=Docker
 
 WORKDIR /usr/share/nginx/html
